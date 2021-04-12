@@ -27,6 +27,7 @@ Firstly, LSTM model was deployed to address this supervised regression problem[8
 ## Results and Discussion
 
 #### Model
+![image](https://user-images.githubusercontent.com/77630658/114395406-e572b400-9bce-11eb-98db-516fc9003e19.png)
 
 Figure 2: Performance and prediction by the different model
 The performance of the Bidirectional RNN, LSTM and GRU model are depicted above in Figure 2. The Bidirectional RNN model shows MSE and R-squared of 0.0689 and -0.9339 respectively, which performs better than the other models.
