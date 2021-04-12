@@ -28,6 +28,7 @@ Firstly, LSTM model was deployed to address this supervised regression problem[8
 
 #### Model
 ![image](https://user-images.githubusercontent.com/77630658/114395406-e572b400-9bce-11eb-98db-516fc9003e19.png)
+
 Figure 2: Performance and prediction by the different model
 
 Figure 2: Performance and prediction by the different model
