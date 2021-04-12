@@ -17,7 +17,8 @@ This extracted dataset was then split into training and test as well as valid da
 Firstly, LSTM model was deployed to address this supervised regression problem[8][9][10][11][12]. The LSTM model deployed was a sequential model consisting of 5 fully connected layers, followed by 3 LSTM layers, 3 dropout layers, 1 dense output layer. The LSTM model consisted of approximately 50853 parameters and was relatively easy to train and test. Secondly, GRU model was deployed to address this. The GRU model deployed was a sequential model consisting of 5 fully connected layers, followed by 3 GRU layers, 1 dense output layer. Thirdly, Bidirectional RNN model consisted of approximately 24071 parameters, consisting of one GRU layer and tow bidirectional GRU layers.
 
 
-#### Building the model: For the Bidirectional RNN model the following hyperparameters and metrics were employed: 
+#### Building the model
+For the Bidirectional RNN model the following hyperparameters and metrics were employed: 
 ●	Adam was used as an optimizer with a learning rate of 0.0001
 ●	Tanh and Sigmoid functions was used for every gate.
 ●	Being a supervised regression problem, the system performance was measured using two metrics namely, the mean squared error (MSE) and R-squared. 
